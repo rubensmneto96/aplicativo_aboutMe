@@ -1,10 +1,10 @@
 # aboutmeapp
 
-A new Flutter project.
+Aplicativo para aprendizado do curso de Flutter.
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+Aplicativo sobre mim. Como se fosse um portfólio.
 
 A few resources to get you started if this is your first Flutter project:
 
