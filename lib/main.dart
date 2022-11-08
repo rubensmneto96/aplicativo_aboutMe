@@ -57,7 +57,11 @@ class HomePage extends StatelessWidget {
           _buildProfessionalContent(),
         ]),
         floatingActionButton: FloatingActionButton.extended(
-            onPressed: () {},
+            onPressed: () {
+              final Uri url = Uri.parse('https://github.com/rubensmneto96');
+
+              launchUrl(url);
+            },
             label: const Text('Follow Me'),
             icon: const Icon(Icons.favorite)),
       ),
