@@ -189,6 +189,127 @@ class HomePage extends StatelessWidget {
             ),
           ),
         ]),
+        const Divider(
+            color: Color.fromARGB(255, 41, 109, 245),
+            indent: 32,
+            endIndent: 32,
+            thickness: 3),
+        Padding(
+          padding: EdgeInsets.only(top: 10),
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              child: Text(
+                'Relógio Simples em JS',
+                textAlign: TextAlign.center,
+                style: GoogleFonts.oswald(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 10)),
+            GestureDetector(
+              onTap: () {
+                final Uri url = Uri.parse(
+                    'https://rubensmneto96.github.io/relogio-simples2/');
+
+                launchUrl(url);
+              },
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.network(
+                  'https://rubensmneto96.github.io/portfolio/img/relogio-simples.png',
+                  width: 350,
+                ),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 40)),
+            Container(
+              child: Text(
+                'Cadastro de clientes Django',
+                textAlign: TextAlign.center,
+                style: GoogleFonts.oswald(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 10)),
+            GestureDetector(
+              onTap: () {
+                final Uri url = Uri.parse(
+                    'https://cadastro-mostrar-clientes.herokuapp.com/');
+
+                launchUrl(url);
+              },
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.network(
+                  'https://rubensmneto96.github.io/portfolio/img/cadastro-clientes.png',
+                  width: 350,
+                ),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 40)),
+            Container(
+              child: Text(
+                'Reserva de Sala Ruby on Rails',
+                textAlign: TextAlign.center,
+                style: GoogleFonts.oswald(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 10)),
+            GestureDetector(
+              onTap: () {
+                final Uri url =
+                    Uri.parse('https://reserva-sala-rails.herokuapp.com/');
+
+                launchUrl(url);
+              },
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.network(
+                  'https://rubensmneto96.github.io/portfolio/img/reserva-sala.png',
+                  width: 350,
+                ),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 40)),
+            Container(
+              child: Text(
+                'Landing Zone',
+                textAlign: TextAlign.center,
+                style: GoogleFonts.oswald(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 10)),
+            GestureDetector(
+              onTap: () {
+                final Uri url =
+                    Uri.parse('https://rubensmneto96.github.io/landing-page/');
+
+                launchUrl(url);
+              },
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.network(
+                  'https://rubensmneto96.github.io/portfolio/img/landing-page.png',
+                  width: 350,
+                ),
+              ),
+            ),
+            Padding(padding: const EdgeInsets.only(top: 40)),
+          ],
+        ),
         Padding(padding: const EdgeInsets.only(bottom: 10)),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
